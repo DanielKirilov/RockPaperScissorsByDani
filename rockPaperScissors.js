@@ -23,48 +23,48 @@ switch (pcRandomNumber) {
 }
         if ((playerTurn === rock || playerTurn === "r") && computerTurn === rock) {
             console.log("You chose Rock");
-            console.log("The PC chose Rock");
-            console.log("It's a Draw");
+            console.log("\x1b[36mThe PC chose Rock\x1b[0m");
+            console.log("\x1b[30mIt's a Draw\x1b[0m");
             
         } if ((playerTurn === rock || playerTurn === "r") && computerTurn === paper) {
             console.log("You chose Rock");
-            console.log("The PC chose Paper");
-            console.log("You Lose");
+            console.log("\x1b[36mThe PC chose Paper\x1b[0'");
+            console.log("\x1b[35mYou Lose\x1b[0m");
             
         } if ((playerTurn === rock || playerTurn === "r") && computerTurn === scissors) {
             console.log("You chose Rock");
-            console.log("The PC chose Scissors");
-            console.log("You Win");
+            console.log("\x1b[36mThe PC chose Scissors\x1b[0m");
+            console.log("\x1b[34mYou Win\x1b[0m");
             
         } if ((playerTurn === paper || playerTurn === "p") && computerTurn === rock) {
             console.log("You chose Paper");
-            console.log("The PC chose Rock");
-            console.log("You Win");
+            console.log("\x1b[36mThe PC chose Rock\x1b[0m");
+            console.log("\x1b[34mYou Win\x1b[0m");
             
         } if ((playerTurn === paper || playerTurn === "p") && computerTurn === paper) {
             console.log("You chose Paper");
-            console.log("The PC chose Paper");
-            console.log("It's a Draw");
+            console.log("\x1b[36mThe PC chose Paper\x1b[0m");
+            console.log("\x1b[30mIt's a Draw\x1b[0m");
             
         } if ((playerTurn === paper || playerTurn === "p") && computerTurn === scissors) {
             console.log("You chose Paper");
-            console.log("The PC chose Scissors");
-            console.log("You Lose");
+            console.log("\x1b[36mThe PC chose Scissors\x1b[0m");
+            console.log("\x1b[35mYou Lose\x1b[0m");
             
         } if ((playerTurn === scissors || playerTurn === "s") && computerTurn === rock) {
             console.log("You chose Scissors");
-            console.log("The PC chose Rock");
-            console.log("You Lose");
+            console.log("\x1b[36mThe PC chose Rock\x1b[0m");
+            console.log("\x1b[35mYou Lose\x1b[0m");
             
         } if ((playerTurn === scissors || playerTurn === "s") && computerTurn === paper) {
             console.log("You chose Scissors");
-            console.log("The PC chose Paper");
-            console.log("You Win");
+            console.log("\x1b[36mThe PC chose Paper\x1b[0m");
+            console.log("\x1b[34mYou Win\x1b[0m");
             
         } if ((playerTurn === scissors || playerTurn === "s") && computerTurn === scissors) {
             console.log("You chose Scissors");
-            console.log("The PC chose Scissors");
-            console.log("It's a Draw");
+            console.log("\x1b[36mThe PC chose Scissors\x1b[0m");
+            console.log("\x1b[30mIt's a Draw\x1b[0m");
             
         } 
 
